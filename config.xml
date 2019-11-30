@@ -1,0 +1,18 @@
+<config>
+    <input>
+        <jar in="build/libs/Cloak-TP-1.0-SNAPSHOT.jar" out="tp-obf.jar"/>
+    </input>
+
+    <keep-names>
+        <class access="public" template = "class TP">
+            <method access = "public"/>
+        </class>
+        <class access="private" template = "class PullRequest"/>
+    </keep-names>
+
+    <classpath basedir="classpath">
+        <jar name="*.jar"/>
+    </classpath>
+
+    <property name="log-file" value="log.xml"/>
+</config>
