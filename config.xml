@@ -6,6 +6,7 @@
     <keep-names>
         <class access="public" template = "class TP">
             <method access = "public"/>
+            <field access = "public"/>
         </class>
         <class access="private" template = "class PullRequest"/>
     </keep-names>

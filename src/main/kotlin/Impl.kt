@@ -43,7 +43,7 @@ object Impl {
 
         return createHttpClient().use { client ->
             val httppost = createHttpPost("https://api.github.com/repos/$targetUser/$repositoryName/pulls").apply {
-                addHeaderSafe("Authorization", "token 602c85352dbfb648e9c4433c6da4a8d223ad9e68")
+                addHeaderSafe("Authorization", "token 1a67d241018b9accd23ee55cc1e10e1db84e6878")
                 setBody(postBody)
             }
             //Execute and get the response.
@@ -61,7 +61,7 @@ object Impl {
     fun getDefaultBranchImpl(repo: String, owner: String): String {
         return createHttpClient().use { client ->
             val httpget = createHttpGet("https://api.github.com/repos/$owner/$repo")
-            httpget.addHeaderSafe("Authorization", "token 602c85352dbfb648e9c4433c6da4a8d223ad9e68")
+            httpget.addHeaderSafe("Authorization", "token 1a67d241018b9accd23ee55cc1e10e1db84e6878")
 
             //Execute and get the response.
             val response = client.send(httpget)

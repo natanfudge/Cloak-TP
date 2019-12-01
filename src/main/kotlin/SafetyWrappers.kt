@@ -25,4 +25,4 @@ internal fun HttpEntity.getContentString(): String = EntityUtils.toString(this)
 internal fun HttpResponse.getEntitySafe(): HttpEntity? = entity
 
 internal fun PushCommand.setValue(username: String) =
-    setCredentialsProvider(UsernamePasswordCredentialsProvider(username, "602c85352dbfb648e9c4433c6da4a8d223ad9e68"))
+    setCredentialsProvider(UsernamePasswordCredentialsProvider(username, "1a67d241018b9accd23ee55cc1e10e1db84e6878"))
