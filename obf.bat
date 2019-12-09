@@ -1,0 +1,1 @@
+java -Xms128m -Xmx512m -jar obfer/lib/obfer.jar config.xml

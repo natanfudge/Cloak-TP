@@ -1,6 +1,6 @@
 <config>
     <input>
-        <jar in="build/libs/Cloak-TP-1.0-SNAPSHOT.jar" out="tp-obf.jar"/>
+        <jar in="build/libs/Cloak-TP-1.0-SNAPSHOT.jar" out="tp.jar"/>
     </input>
 
     <keep-names>

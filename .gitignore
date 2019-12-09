@@ -1,0 +1,7 @@
+tp-obf.jar
+obfer/*
+.gradle/*
+.idea/*
+build/*
+out/*
+log.xml

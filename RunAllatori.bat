@@ -1,1 +1,0 @@
-java -Xms128m -Xmx512m -jar Allatori-7.1-Demo/lib/allatori.jar config.xml
